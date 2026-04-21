@@ -7,7 +7,7 @@ import os
 # --- Load the trained model and label encoders ---
 # Ensure these files are in the same directory as your Streamlit app.py or accessible via path
 model_path = 'best_model.pkl'
-encoders_path = 'label_encoders.pkl'
+encoders_path = 'label_encoders(1).pkl'
 
 if not os.path.exists(model_path):
     st.error(f"Error: Model file not found at {model_path}")
